@@ -57,6 +57,14 @@ ref:
     - namespace: test-credentials
       name: telcov10n-ansible-hypervisors-hv16
       mount_path: /var/host_variables/fthub-01/hypervisor
+    # kni-qe-106
+    - namespace: test-credentials
+      name: telcov10n-ansible-kni-qe-106-bastion
+      mount_path: /var/host_variables/kni-qe-106/bastion
+    - namespace: test-credentials
+      name: telcov10n-ansible-kni-qe-106-master0
+      mount_path: /var/host_variables/kni-qe-106/master0
+
 
   documentation: |-
       Deploy OCP SNO on the Hub cluster for CNF RAN    
